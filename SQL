@@ -42,4 +42,18 @@ Type of indexes:
 4.  Non clustered  :  creates a separate entity within the table which references the original table.
 
 
+Clusted vs non clustered:
+1. clustered indexes are indexes whose order of the rows in the database corresponds to the order of the rows in the index. This is why only one clustered index can exist in a given table, whereas, multiple non-clustered indexes can exist in the table.
+index modifies the way records are stored in a database based on the indexed column. A non-clustered index creates a separate entity within the table which references the original table.
+Clustered index is used for easy and speedy retrieval of data from the database, whereas, fetching records from the non-clustered index is relatively slower.
+In SQL, a table can have a single clustered index whereas it can have multiple non-clustered indexe
 
+Data Integrity : is assurance of accuracy and consistency of data over its entire life-cycle and is a critical aspect of the design, implementation, and usage of any system which stores, processes, or retrieves data.
+
+query : request for data or information from a database table or combination of tables.
+
+sub query: query within another query, also known as a nested query or inner query. It is used to restrict or enhance the data to be queried by the main query, thus restricting or enhancing the output of the main query respectively. 
+
+sub query types :
+  1. correlated : not considered an independent query
+  2. non correleated query : independent query
