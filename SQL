@@ -1,0 +1,45 @@
+Database  :  organized collection of data, stored and retrived from a remote computer system
+
+Database management system :  DBMS is software responsible for creation updation deletion and management of data.
+
+RDBMS  :  relational database management system . stores data in form of collections of tables and relation defined as the common fields
+
+Sql  :  structured query language. language for relational management systems.
+
+table  :  organized collection of data stored in the form of rows and columns.
+
+fields  :   The columns in a table are called fields while the rows can be referred to as records.
+
+Constraints  :  
+  1.  NOT NULL  :  Restricts NULL value from being inserted into a column.
+  2.  CHECK   :  Verifies that all values in a field satisfy a condition.
+  3.  DEFAULT : Automatically assigns a default value if no value has been specified for the field.
+  4.  UNIQUE : Ensures unique values to be inserted into the field.
+  5.  INDEX : Indexes a field providing faster retrieval of records
+  6.  PRIMARY KEY : Uniquely identifies each record in a table.
+  7.  FORENIGN KEY : Ensures referential integrity for a record in another table.
+
+Primary key :  uniquely identifies each row in a table. 
+Unique : constraint ensures that all values in a column are different. 
+Foreign Key  :  comprises of single or collection of fields in a table that essentially refers to the PRIMARY KEY in another table
+
+Joins : used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
+
+Types of joins :  
+  1. inner join: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries.
+  2.  left join:  Retrieves all the records/rows from the left and the matched records/rows from the right table.
+  3.  right join:  Retrieves all the records/rows from the right and the matched records/rows from the left table.
+  4.  full join:  Retrieves all the records where there is a match in either the left or right table.
+  5. self join:   case of regular join where a table is joined to itself based on some relation between its own column(s)
+  6.  cross join:  cartesian product of the two tables included in the join.
+
+Index :  data structure that provides a quick lookup of data in a column or columns of a table.
+
+Type of indexes:  
+1.  Unique  :   indexes that help maintain data integrity by ensuring that no two rows of data in a table have identical key values.
+2.  Non-unique  :  used solely to improve query performance by maintaining a sorted order of data values that are used frequently.
+3.  Clustered  :  indexes whose order of the rows in the database corresponds to the order of the rows in the index. 
+4.  Non clustered  :  creates a separate entity within the table which references the original table.
+
+
+
