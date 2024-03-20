@@ -57,3 +57,21 @@ sub query: query within another query, also known as a nested query or inner que
 sub query types :
   1. correlated : not considered an independent query
   2. non correleated query : independent query
+
+Select : used to select data from a database. The data returned is stored in a result table, called the result-set.
+
+where : used to filter records that are necessary, based on specific conditions.
+
+order by: used to sort the records based on some field(s) in ascending (ASC) or descending order (DESC).
+
+group by : used to group records with identical data and can be used in conjunction with some aggregation functions to produce summarized results from the database.
+
+having : used to filter records in combination with the GROUP BY clause. It is different from WHERE, since the WHERE clause cannot filter aggregated records.
+
+union : combines and returns the result-set retrieved by two or more SELECT statements.
+
+union all : Combines the result from the multiple tables and returns all the records into a single result set.
+
+minus : used to remove duplicates from the result-set obtained by the second SELECT query from the result-set obtained by the first SELECT query and then return the filtered results from the first.
+
+intersect : ombines the result-set fetched by the two SELECT statements where records from one match the other and then returns this intersection of result-se.
