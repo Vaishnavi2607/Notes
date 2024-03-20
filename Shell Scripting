@@ -1,0 +1,31 @@
+  -  open source OS
+  -  wrapper :  configure environment, execute program , do logging or clean up
+  -  name of shell :-  echo $SHELL
+  -  she-bang(#!) :- passes instruction to program /bin/sh
+  -  comments:  any line starting with #
+  -  variables does not run outside the script
+  -  Sourcing :  1.  source <filename>
+                 2.  ./<filename>
+  -  difference between sourcing and executing script is while executing script it runs in a new shell
+      while sourcing file will be read and executed in same shell
+  -  bash -x : shell expansion
+  -  spoofing :  technique in which user tries to grant unauthorized access on a system by prendenting root user
+  -  to prevent spoofing add -- after #!/bin/bash
+  -  make script executable :  chmod +x <filename>
+  -  run file:  ./<filename>
+  -  $1-$9 :-  Represent positional parameters for arguments one to nine
+  -  ${10}-${n}  :-  	Represent positional parameters for arguments after nine
+  -  $0 :- name of script
+  -  $∗ :-  Represent all the arguments as a single string
+  -  $@  :  Same as $∗, but differ when enclosed in (").
+  -  $#  :-  Represent total number of arguments.
+  -  $$  :-  PID of the script.
+  -  $?  :-  represt last return code.
+  -  shift command :-  Shift command is a built-in command. Command takes number as argument. Arguments shift down by this number.
+  -  read command  :-  The read command allows a user to provide the runtime input.
+  -  getopts options  :-  The getopts options are used in shell scripts to parse arguments passed to them.
+  -  The if then else condition loop states that if condition meets, output goes to if part otherwise it goes to else part. The word fi represents if loop termination .
+  -  eval command  :-  The eval command is a built-in command. It takes a string as its argument and evaluate it, then run the command stored in the argument.
+  -  let command  :-  The let command is an arithmetic operator. It is almost same as (( )). Only difference is that, let is an arithmetic command while (( )) is a compound command.
+                      It is a built-in command which instructs shell to perform an evaluation of arithmetic expressions.
+  -                    
